@@ -315,3 +315,20 @@ input[type='checkbox']{
     padding: 3px 15px;
     background-color: white;
 }
+
+/* Sezione 5 */
+.float{
+    float: left;
+}
+#apri_tendina{
+    float: right;
+}
+.bordo_bottom{
+    border-bottom: 1px solid #ccc;
+}
+.padding_domande{
+    padding: 25px 0;
+}
+#border_top{
+    border-top: 1px solid #ccc;
+}

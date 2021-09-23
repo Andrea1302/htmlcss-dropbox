@@ -234,3 +234,48 @@ input[type='checkbox']{
     text-decoration: underline;
 }
 /* Sezione 4  */
+.quadrato_lati{
+    width: 30%;
+    float: left;
+    
+}
+#quadrato_base{
+    width: 40%;
+    float: left;
+}
+.quadratino{
+    float: left;
+    width: 50%;
+    height: 216px;
+    text-align: center;
+    line-height: 216px;
+}
+.quadratino img{
+    width: 50%;
+    height: auto;
+    vertical-align: middle;
+}
+#q1{
+    background-color: rgb(178, 216, 129);
+}
+#q2{
+    background-color: rgb(90, 9, 9);
+}
+#q3{
+    background-color: lightskyblue;
+}
+#q4{
+    background-color: red;
+}
+#quadrato_base{
+    min-height:432px;
+    background-color: #ccc;
+    padding: 60px;
+}
+#quadrato_base img{
+    width: 20%;
+    height: auto;
+}
+#quadrato_base #citazione{
+    margin: 50px 0;
+}

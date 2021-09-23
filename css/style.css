@@ -24,16 +24,31 @@ a{
     color:#000 ;
 }
 
+/* Bottone blu  */
+.click{
+    padding: 3px 10px;
+    background-color:rgb(30, 81, 247) ;
+    color: white;
+}
+
+/* Regole centrature generali  */
+.central_one{
+    width: 90%;
+    margin: 80px auto;
+}
+
 /* header */
 
 header{
     width: 100%;
     height: 80px;
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 0vh;
+    left: 0vw;
     line-height: 80px;
     padding: 0 15px;
+    z-index: 999;
+    background-color: white;
 }
 .head_sx img{
     float: left;
@@ -54,8 +69,37 @@ header{
 .head_dx li{
     padding: 0 15px;
 }
-.head_dx #inizia{
-    padding: 3px 10px;
-    background-color:rgb(30, 81, 247) ;
-    color: white;
+
+
+
+
+/* Jumbotron */
+
+.jumbotron{
+    background-color: rgb(143, 192, 223);
+}
+.central_one.jumbo{
+    padding: 64px 0;
+}
+/* colsx  */
+.jumbotron h1{
+    font-size: 70px
+}
+
+.colsx p{
+    margin: 20px 0;
+}
+.colsx div{
+    margin: 20px 0;
+}
+.colsx{
+    width: 30%;
+    float: left;
+}
+
+/* coldx */
+.coldx img{
+    margin: 25px 0;
+    max-width: 70%;
+    float: right;
 }

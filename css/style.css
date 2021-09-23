@@ -332,3 +332,51 @@ input[type='checkbox']{
 #border_top{
     border-top: 1px solid #ccc;
 }
+.bold{
+    font-weight: bold;
+}
+
+
+/* footer  */
+
+footer{
+    background-color: black;
+    color: white;
+}
+.a_foot{
+    color: white;
+    font-size: 12px;
+}
+#foot_margin{
+    margin: 0 auto;
+    width: 90%;
+    padding: 100px 0;
+}
+#foot_margin li{
+    margin: 10px 0;
+}
+.bold.margin_span_footer{
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.width_col_footer{
+    width: calc( 100% / 6 );
+}
+#lingua{
+    font-size: 8px;
+    color:grey;
+}
+.fa-sort-up{
+    vertical-align: sub;
+}
+#lingua{
+    display: inline-block;
+    line-height: 16px;
+    vertical-align: middle;
+}
+#foot_giu{
+    border-top: 1px solid white;
+    padding-top: 20px;
+    width: 8%;
+    margin-top: 30px;
+}

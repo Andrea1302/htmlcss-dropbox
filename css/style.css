@@ -175,3 +175,53 @@ input[type='checkbox']{
 .second_ h5{
     margin: 30px 0;
 }
+
+
+/* Sezione 2  */
+
+#colsx_2,#coldx_2{
+    float: left;
+}
+#colsx_2{
+    width: 60%;
+}
+#colsx_2 img{
+    width: 100%;
+    height: auto;
+}
+#coldx_2{
+    width: 40%;
+    padding: 10% 4%;
+}
+#coldx_2 p{
+    margin: 20px 0;
+}
+#coldx_2 #trova{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 2px 10px;
+}
+
+
+/* Sezione 3  */
+.colonna_type{
+    width: 30%;
+    float: left;
+}
+#colcentral_2{
+    margin: 0 5%;
+}
+.colonna_type img{
+    width: 100%;
+    height: auto;
+}
+#second_clear{
+    margin-top: 50px;
+}
+#sottolineato{
+    text-decoration: underline;
+}
+.colonna_type p{
+    margin-top: 30px;
+}

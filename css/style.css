@@ -269,7 +269,7 @@ input[type='checkbox']{
 }
 #quadrato_base{
     min-height:432px;
-    background-color: #ccc;
+    background-color: rgb(235, 231, 231);
     padding: 60px;
 }
 #quadrato_base img{
@@ -278,4 +278,40 @@ input[type='checkbox']{
 }
 #quadrato_base #citazione{
     margin: 50px 0;
+}
+#q5{
+    background-color: rgb(207, 13, 13);
+}
+#q6{
+    background-color: rgb(169, 214, 241);
+}
+#q7{
+    background-color: darkblue;
+}
+#q8{
+    background-color: rgb(255, 196, 0);
+}
+/* sottosezione 4  */
+#prova_gratuita{
+    background-color: rgb(173, 210, 223);
+}
+#contenitore_sottosezione{
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+#contenitore_sottosezione h2{
+    float: left;
+    width: 30%;
+    font-size: 33px;
+    color: rgb(90, 11, 11);
+}
+
+#contenitore_sottosezione #prova{
+    float: right;
+    width: 30%;
+}
+#prova a{
+    padding: 3px 15px;
+    background-color: white;
 }

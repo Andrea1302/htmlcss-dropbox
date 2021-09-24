@@ -19,9 +19,9 @@ nav li{
     display: inline-block;
 }
 
-a{
+header,.jumbotron a{
     text-decoration: none;
-    color:#000 ; 
+    color:#000 ;
 }
 
 /* Bottone blu  */
@@ -78,7 +78,9 @@ header{
 
 
 /* Jumbotron */
-
+.jumbotron a{
+    color: white;
+}
 .jumbotron{
     background-color: rgb(143, 192, 223);
 }
@@ -86,11 +88,12 @@ header{
     padding-top: 64px;
 }
 .jumbotron h1{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-size: 70px
 }
 #ancora_top{
     font-size: 45px;
+    color: black;
 }
 
 
@@ -121,7 +124,7 @@ main{
 }
 /* Sezione prima  */
 .padding_colbasic{
-    padding: 50px  20px;
+    padding:  0 20px;
 }
 .central_main h2{
     margin-bottom: 50px;
@@ -139,6 +142,7 @@ input[type='checkbox']{
     border: 1px solid lightgrey;
     float: left;
     margin:20px 0;
+    font-size: 15px;
     /* Altezza data per tenere la stessa grandezza in tutte e 3 le colonne  */
     min-height: 850px;
 }
@@ -149,6 +153,7 @@ input[type='checkbox']{
 }
 #here a{
     color: white;
+    text-decoration: none;
 }
 .user{
     padding: 5px;
@@ -158,11 +163,43 @@ input[type='checkbox']{
 .space{
     margin: 20px;
 }
+.divisore{
+    height: 2px;
+    border-bottom: 1px solid lightgrey;
+    margin: 25px 0;
+    width: 20%;
+    margin-left: 20px;
+}
+.space span{
+    padding-left: 18px;
+}
+.font_grey{
+    font-size: 12px;
+    color: grey;
+}
 .colcentral{
     margin: 20px 5% ;
 }
 
+.check.space{
+    list-style:'\2713';
+    color: blue;
+    margin-right: 5px;
+}
+.check.space span{
+    font-size: 12px;
+    color: black;
+    font-weight: normal;
+}
+.puntisalienti{
+    font-size: 20px;
+    font-weight: bold;
+} 
+
 /* Colonna fuori da float */
+#onlyone{
+    padding: 30px;
+}
 .second_{
     border: 1px solid lightgrey;
     width: 100%;
@@ -179,6 +216,7 @@ input[type='checkbox']{
 #contatta_ufficio a{
     color: white;
     padding: 3px 45px;
+    text-decoration: none;
 }
 .second_ h5{
     margin: 30px 0;
@@ -208,7 +246,8 @@ input[type='checkbox']{
     background-color: white;
     color: black;
     border: 1px solid black;
-    padding: 2px 10px;
+    padding: 6px 10px;
+    text-decoration: none;
 }
 
 
@@ -238,7 +277,6 @@ input[type='checkbox']{
     margin-top: 100px;
 }
 #scopri_piu{
-    color: blue;
     text-decoration: underline;
 }
 /* Sezione 4  */
@@ -326,6 +364,9 @@ input[type='checkbox']{
 }
 
 /* Sezione 5 */
+#domande_frequenti{
+    font-size: 32px;
+}
 .float{
     float: left;
 }

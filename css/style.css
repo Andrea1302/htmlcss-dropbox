@@ -359,8 +359,10 @@ input[type='checkbox']{
     width: 30%;
 }
 #prova a{
-    padding: 3px 15px;
+    padding: 5px 25px;
     background-color: white;
+    text-decoration: none;
+    color: black;
 }
 
 /* Sezione 5 */
@@ -412,21 +414,19 @@ footer{
 .width_col_footer{
     width: calc( 100% / 6 );
 }
-#lingua{
-    font-size: 8px;
-    color:grey;
-}
-.fa-sort-up{
-    vertical-align: sub;
-}
-#lingua{
-    display: inline-block;
-    line-height: 16px;
+/* Parte bassa footer  */
+#ita{
+    margin: 0 5px;
+} 
+#select{
     vertical-align: middle;
+    line-height: 20px;
 }
 #foot_giu{
     border-top: 1px solid white;
     padding-top: 20px;
-    width: 8%;
     margin-top: 30px;
+    font-size: 12px;
+    color: grey;
+    height: 20px;
 }

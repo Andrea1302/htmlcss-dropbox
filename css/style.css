@@ -422,6 +422,10 @@ footer{
 .a_foot{
     color: white;
     font-size: 12px;
+    text-decoration: none;
+}
+.a_foot:hover{
+    text-decoration: underline;
 }
 #foot_margin{
     margin: 0 auto;
@@ -438,6 +442,7 @@ footer{
 .width_col_footer{
     width: calc( 100% / 6 );
 }
+
 /* Parte bassa footer  */
 #ita{
     margin: 0 5px;

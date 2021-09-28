@@ -34,6 +34,9 @@ header a{
     background-color:rgb(30, 81, 247) ;
     color: white;
 }
+.click:hover{
+    border: 3px solid rgba(75, 75, 75, 0.3);
+}
 
 /* Regole centrature generali  */
 .central_one{
@@ -396,7 +399,14 @@ input[type='checkbox']{
     font-weight: bold;
 }
 
-
+#tendina_container:hover .risposta{
+    display:block;
+}
+.risposta{
+    padding: 25px 0;
+    border-bottom: 1px solid #ccc;
+    display: none;
+}
 /* footer  */
 
 footer{

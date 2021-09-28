@@ -80,6 +80,12 @@ header{
 .head_dx li{
     padding: 0 15px;
 }
+.sottomenu_supporto{
+    display: none;
+}
+#supporto:hover .sottomenu_supporto{
+    display: block;
+}
 
 
 /* Jumbotron */

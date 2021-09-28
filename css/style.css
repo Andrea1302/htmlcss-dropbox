@@ -295,6 +295,9 @@ input[type='checkbox']{
     text-align: center;
     line-height: 216px;
 }
+.quadratino:hover{
+    border: 10px solid rgba(75, 75, 75, 0.3);
+}
 .quadratino img{
     width: 50%;
     height: auto;

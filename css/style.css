@@ -17,12 +17,16 @@ li{
 }
 nav li{
     display: inline-block;
+
 }
 
-header,.jumbotron a{
+header a{
     text-decoration: none;
     color:#000 ;
+    width: 100%;
+    height: 100%;
 }
+
 
 /* Bottone blu  */
 .click{
@@ -75,11 +79,10 @@ header{
 }
 
 
-
-
 /* Jumbotron */
 .jumbotron a{
     color: white;
+    text-decoration: none;
 }
 .jumbotron{
     background-color: rgb(143, 192, 223);
@@ -285,10 +288,6 @@ input[type='checkbox']{
     float: left;
     
 }
-#quadrato_base{
-    width: 40%;
-    float: left;
-}
 .quadratino{
     float: left;
     width: 50%;
@@ -314,9 +313,15 @@ input[type='checkbox']{
     background-color: red;
 }
 #quadrato_base{
-    min-height:432px;
+    width: 40%;
+    float: left;
+    height:432px;
     background-color: rgb(235, 231, 231);
     padding: 60px;
+    overflow-y: scroll;
+}
+#sruttura_quadrati{
+    max-height: 432px;
 }
 #quadrato_base img{
     width: 20%;
@@ -423,6 +428,7 @@ footer{
     line-height: 20px;
 }
 #foot_giu{
+    width: 10%;
     border-top: 1px solid white;
     padding-top: 20px;
     margin-top: 30px;
